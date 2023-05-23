@@ -1,0 +1,41 @@
+.header {
+    margin-bottom: 100px;
+}
+.header__main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    color: $white;
+}
+.header__link {
+	padding-bottom: 7px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 12px;
+	color: $white2;
+	position: relative;
+	transition: all cubic-bezier(0.39, 0.575, 0.565, 1);
+	&:hover {
+		color: $yellow2;
+		border-bottom: 2px solid $yellow;
+	}
+}
+.header__inner {
+	display: flex;
+	align-items: center;
+}
+.header__links {
+	display: flex;
+	align-items: center;
+	margin-right: 160px;
+	gap: 60px;
+}
+.header__btn {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	color: $yellow;
+	padding: 20px;
+	background-color: rgba(233, 215, 167, 0.1);
+	border: 1px solid #ffce4e;
+}

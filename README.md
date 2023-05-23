@@ -1,0 +1,1 @@
+url макета : https://www.figma.com/community/file/1077892229983552963/NFT-Dark-Responsive-Landing-Page-UI-UX-Design-Free-Download

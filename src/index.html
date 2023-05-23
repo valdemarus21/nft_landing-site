@@ -1,8 +1,57 @@
-@@include('html/head.html', {
-"title": "Главная"
-})
-@@include('html/header.html', {})
+@@include('html/head.html', { "title": "Главная" })
 <main>
-	priveeeet
+	<div class="container">
+		<div class="first">
+			@@include('html/header.html', {})
+			<div class="container">
+				<div class="first__main">
+					<div class="first__item">
+						<h1 class="first__title">Explore, Buy and Sell the <span> Best NFTs!</span></h1>
+						<div class="first__buttons">
+							<button class="first__button-1">Explore</button>
+							<button class="first__button-2">Create</button>
+						</div>
+
+						<div class="first__numbers">
+							<div class="first__number">
+								<p>32k+</p>
+								Artworks
+							</div>
+							<div class="first__number">
+								<p>20k+</p>
+								Auctions
+							</div>
+							<div class="first__number">
+								<p>12k+</p>
+								Creators
+							</div>
+						</div>
+					</div>
+					<div class="first__nft">
+						<div class="first_nft__header">
+							<div class="">
+								<p class="first_nft-header__title">Current Bid</p>
+								<p class="first_nft-header__text">0.99 ETH</p>
+							</div>
+							<div class="">
+								<p class="first_nft-header__title">Ends in</p>
+								<p class="first_nft-header__text">25 hrs</p>
+							</div>
+						</div>
+						<div class="first_nft__footer">
+							<div class="">
+								<p class="first_nft__footer-title">Artist</p>
+								<p class="first_nft__footer-text">@wzard</p>
+							</div>
+							<button class="first_nft__btn">Start Bid</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="first__arrow-btn">
+				<img src="./img/arrow-down.svg" alt="">
+			</button>
+		</div>
+	</div>
 </main>
 @@include('html/footer.html', {})

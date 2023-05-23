@@ -1,12 +1,12 @@
 body {
-  overflow-x: hidden;
-  position: relative;
-  color: $black;
-  @include font('Raleway', 500);
-
-  &.active-body {
-    overflow: hidden;
-  }
+	overflow-x: hidden;
+	position: relative;
+	background-color: $black;
+	font-family: 'Oxanium', cursive;
+	font-family: 'Work Sans', sans-serif;
+	&.active-body {
+		overflow: hidden;
+	}
 }
 
 h1,
@@ -15,17 +15,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 36px;
+	font-size: 36px;
 }
 
 a,
 button {
-  color: $white2;
+	color: $white2;
 }
 
 .container {
-  max-width: 1310px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+	max-width: 1390px;
+	min-height: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
 }
