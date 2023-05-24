@@ -7,20 +7,15 @@
 		position: relative;
 		z-index: 2;
 	}
-	&::after {
-		content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 770px;
-		height: 1063px;
-		background: rgba(79, 70, 78, 0.45);
-		backdrop-filter: blur(15px);
-	}
 }
 .first__main {
 	display: flex;
 	justify-content: space-between;
+	@media (max-width: 1200px) {
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
 }
 .first__title {
 	font-weight: 700;
@@ -32,12 +27,20 @@
 	span {
 		color: $yellow;
 	}
+	@media (max-width: 1100px) {
+		font-size: 50px;
+		line-height: 150%;
+	}
 }
 .first__buttons {
 	padding-top: 77px;
 	display: flex;
 	align-items: center;
 	gap: 48px;
+	@media (max-width: 1200px) {
+		padding-top: 0;
+		gap: 20px;
+	}
 	.first__button-1,
 	.first__button-2 {
 		padding: 24px 76px;
@@ -45,6 +48,16 @@
 		font-weight: 600;
 		line-height: 36px;
 		margin: 75px 0 120px;
+		transition: all 0.2s;
+		&:hover {
+			box-shadow: 0px 0px 15px 0px rgba(255, 206, 78, 0.2);
+		}
+		@media (max-width: 1100px) {
+			padding: 15px 45px;
+		}
+		@media (max-width: 900px) {
+			padding: 15px 25px;
+		}
 	}
 	.first__button-1 {
 		color: #000;
@@ -60,6 +73,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	@media (max-width: 1100px) {
+		font-size: 20px;
+	}
 }
 .first__number {
 	font-family: 'Work Sans';
@@ -73,6 +89,9 @@
 		line-height: 78px;
 		color: #f5fbf2;
 		font-family: 'Oxanium';
+		@media (max-width: 1100px) {
+			font-size: 40px;
+		}
 	}
 }
 .first_nft__header {
@@ -101,10 +120,28 @@
 	background-position: 0 0;
 	background-size: cover;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: space-between;
 	padding-top: 25px;
-	margin-left: 295px;
+	@media (max-width: 1200px) {
+		margin-left: 20px;
+		object-fit: cover;
+		align-items: center;
+		margin-right: 0;
+	}
+	@media (max-width: 1100px) {
+		height: 550px;
+	}
+	@media(max-width: 1000px){
+	min-height: 350px;
+	}
+	@media(max-width: 850px){
+	margin-left: 0;
+	}
+	@media(max-width: 650px){
+	min-width: 350px;
+	}
 }
 .first_nft-header__title {
 	font-family: 'Oxanium';
@@ -135,6 +172,9 @@
 	align-items: center;
 	justify-content: space-evenly;
 	padding: 35px 50px;
+	@media (max-width: 1100px) {
+		padding: 30px;
+	}
 }
 .first_nft__footer-title {
 	font-family: 'Oxanium';
@@ -161,6 +201,10 @@
 	line-height: 28px;
 	padding: 23px;
 	color: #000000;
+	transition: all 0.2s;
+	&:hover {
+		background-color: $blue2;
+	}
 }
 .first__item {
 	max-width: 700px;
@@ -179,5 +223,12 @@
 	height: 156px;
 	img {
 		width: 25px;
+	}
+	@media (max-width: 1200px) {
+		left: 54%;
+		transform: translate(-70%, -15%);
+	}
+	@media(max-width: 850px){
+	display: none;
 	}
 }

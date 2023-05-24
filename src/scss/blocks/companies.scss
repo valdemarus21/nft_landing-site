@@ -2,10 +2,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 20px 30px;
 	img {
 		width: 18%;
+	@media(max-width: 900px){
+	width: 33%;
+	}
 	}
 }
 .companies {
 	margin: 250px 0 150px;
+	@media(max-width: 850px){
+	margin: 75px 0 95px;
+	}
 }

@@ -1,0 +1,49 @@
+.popular {
+	margin-top: 170px;
+	.auctions__img {
+		img {
+			max-height: 270px;
+		}
+	}
+	.auctions-profile__owner {
+		font-family: 'Work Sans';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 36px;
+		color: #f5fbf2;
+	}
+	.auctions-profile__likes {
+		span {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 35px;
+			color: #c2b5c6;
+		}
+	}
+}
+.popular__main {
+	position: relative;
+}
+.swiper-button-prev2 {
+	position: absolute;
+	top: 130px;
+	left: 15px;
+	z-index: 5;
+    cursor: pointer;
+		@media(max-width: 601px){
+	display: none;
+	}
+}
+.swiper-button-next2 {
+    position: absolute;
+    top: 130px;
+    right: 15px;
+    z-index: 5;
+    cursor: pointer;
+	@media(max-width: 601px){
+	display: none;
+	}
+}

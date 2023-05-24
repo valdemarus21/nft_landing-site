@@ -1,0 +1,56 @@
+.subscribe {
+	background-image: url('../../img/bg-pattern.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 10;
+	margin-top: 80px;
+	padding: 117px 0;
+}
+.subscribe__title {
+	font-family: 'Oxanium';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 130px;
+	text-align: center;
+	color: #f5fbf2;
+}
+.subscribe__main {
+	div {
+        justify-content: space-between;
+		display: flex;
+		border: 1px solid #e7b226;
+		max-width: 680px;
+        margin: 0 auto;
+	}
+}
+.subscribe__input {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 35px;
+	/* identical to box height, or 148% */
+	color: #a48ea9;
+	background-color: transparent;
+    flex-grow: 1;
+    padding-left: 25px;
+}
+.subscribe__btn {
+	background: #e7b226;
+	font-family: 'Work Sans';
+    min-height: 100%;
+    display: block;
+	font-weight: 700;
+    min-width: 244px;
+	font-size: 24px;
+	line-height: 35px;
+	/* identical to box height, or 148% */
+	padding: 30px 60px;
+	color: #251928;
+	transition: all cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	&:hover {
+		color: $yellow;
+		background-color: #251928;
+	}
+}
