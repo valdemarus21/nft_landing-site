@@ -7,6 +7,9 @@ body {
 	&.active-body {
 		overflow: hidden;
 	}
+	&.active {
+		overflow: hidden;
+	}
 }
 
 h1,
@@ -46,9 +49,9 @@ button {
 		width: 110px;
 		height: 110px;
 		border-radius: 50%;
-		@media(max-width: 600px){
-		width: 84px;
-		height: 84px;
+		@media (max-width: 600px) {
+			width: 84px;
+			height: 84px;
 		}
 	}
 	&--purple:after {
@@ -57,13 +60,13 @@ button {
 	&--rose:after {
 		background-color: $rose;
 	}
-	@media(max-width: 500px){
-	font-size: 48px;
-	line-height: 130%;
+	@media (max-width: 500px) {
+		font-size: 48px;
+		line-height: 130%;
 	}
-	@media(max-width: 360px){
-	font-size: 32px;
-	line-height: 120%;
+	@media (max-width: 360px) {
+		font-size: 32px;
+		line-height: 120%;
 	}
 }
 .title-wrapper {
@@ -75,9 +78,9 @@ span {
 	position: relative;
 	z-index: 2;
 }
-.swiper-button-prev, 
+.swiper-button-prev,
 .swiper-button-next {
-	@media(max-width: 600px){
-	display: none !important;
+	@media (max-width: 600px) {
+		display: none !important;
 	}
 }

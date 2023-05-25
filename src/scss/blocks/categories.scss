@@ -1,5 +1,8 @@
 .categories {
-    margin-top: 105px;
+	margin-top: 105px;
+	background-image: url('../../img/categories-bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 .categories-slider {
 	padding: 0 !important;
@@ -19,12 +22,11 @@
 		&:hover {
 			&:after {
 				opacity: 1;
-
 			}
-            .categories__bid-btn {
-                opacity: 1;
-                pointer-events: all;
-            }
+			.categories__bid-btn {
+				opacity: 1;
+				pointer-events: all;
+			}
 		}
 	}
 }
@@ -37,14 +39,14 @@
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;
-    padding: 10px 70px;
+	padding: 10px 70px;
 	color: #000000;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-    opacity: 0;
-    pointer-events: none;
-    transition: all .5s ease-in;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 5;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.5s ease-in;
 }

@@ -1,11 +1,21 @@
 .footer {
 	background-color: #251928;
     padding: 115px 0;
+	@media(max-width: 600px){
+	padding: 55px 0;
+	}
 }
 .footer__main {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	gap: 40px 20px;
+	@media(max-width: 1000px){
+		flex-wrap: wrap;
+	img {
+		max-width: 100px;
+	}
+	}
 }
 .footer__social {
 	display: flex;
@@ -16,6 +26,9 @@
 		height: 35px;
 	}
 	margin: 60px 0;
+	@media(max-width: 550px){
+	margin: 20px 0;
+	}
 }
 .footer__rights {
 	font-family: 'Work Sans';
