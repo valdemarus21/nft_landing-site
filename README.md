@@ -21,10 +21,10 @@ gulp
 
 Or simply from the dist folder run index.html in any available code editor. 
 Application screenshots + adaptive design : 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![](https://github.com/valdemarus21/nft_landing-site/blob/master/projects__images/1.jpg)
+![](https://github.com/valdemarus21/nft_landing-site/blob/master/projects__images/2.jpg)
+![](https://github.com/valdemarus21/nft_landing-site/blob/master/projects__images/3.jpg)
+![](https://github.com/valdemarus21/nft_landing-site/blob/master/projects__images/4.jpg)
+![](https://github.com/valdemarus21/nft_landing-site/blob/master/projects__images/5.jpg)
+![](https://github.com/valdemarus21/nft_landing-site/blob/master/projects__images/6.jpg)
+![](https://github.com/valdemarus21/nft_landing-site/blob/master/projects__images/7.jpg)
